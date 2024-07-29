@@ -98,7 +98,7 @@ TEMPLATES = {
 }
 
 # Initialize the document loader and FAISS index
-documents = load_documents("ME.csv")
+documents = load_documents("csv_template.csv")
 embeddings = OpenAIEmbeddings()
 db = create_faiss_index(documents, embeddings)
 
