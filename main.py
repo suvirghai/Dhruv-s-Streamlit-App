@@ -126,9 +126,9 @@ def main():
 
     col1, col2, col3 = st.columns([1, 2, 1])
     col1.header("Get to know me")
-    col2.image("memoji.png", width=200)
-    with open("resume.pdf", "rb") as file:
-        col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
+    #col2.image("memoji.png", width=200)
+   # with open("resume.pdf", "rb") as file:
+     #   col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
 
     st.write("Hi, I’m Suvir Ghai. Feel free to ask me any questions you have!")
     message = st.text_area("Your question here...")
