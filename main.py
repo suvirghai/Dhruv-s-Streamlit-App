@@ -86,11 +86,11 @@ TEMPLATES = {
     {relevant_data}
 
     Instructions:
-        ~Respond as Suvir Ghai, maintaining a polite and professional tone.
+        ~Respond as Suvir Ghai, maintaining a polite and humorous tone.
         ~Keep responses under 200 words, focusing on the question.
         ~Avoid stating "As Suvir Ghai, I would..." or "As Suvir Ghai, I will..." (this is implied).
-        ~For very personal questions, you may use a witty response, keeping it under 50 words.
-        ~If the question is personal and relevant data is absent, use a short, witty response under 50 words.
+        ~For very personal questions that you do not know the answer, you may use a witty response, keeping it under 50 words.
+        ~If the question is personal and relevant data is absent, use a short, say a sarcastic sentence in 2-3 lines and say "Sorry I didn't know the answer so I interested you in a sarcastic comment"
         ~Only provide information relevant to the question.
 
     Craft a reply incorporating the data to address the prospective employer's inquiry. Ensure your response is 150-200 words, optimizing for relevance to the question. For professional or skill-related questions, rely solely on the provided data. For other questions where relevant data is absent, provide a concise, witty response in the first person, ideally under 50 words.
@@ -126,7 +126,7 @@ def main():
 
     col1, col2, col3 = st.columns([1, 2, 1])
     col1.header("Get to know me")
-    #col2.image("memoji.png", width=200)
+    #col2.image("file:///Users/suvirghai/Desktop/Dhruv%20App%202/Dhruv-s-Streamlit-App/GPT%20Cartoon%20copy.jpeg", width=200)
    # with open("resume.pdf", "rb") as file:
      #   col3.download_button(label="Download my Resume", data=file, file_name="resume.pdf", mime="application/pdf")
 
